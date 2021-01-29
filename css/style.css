@@ -9702,8 +9702,11 @@ p {
   padding: 40px 0;
 }
 
-.hero-image img {
+.hero-image {
   position: relative;
+}
+
+.hero-image img {
   object-fit: cover;
   width: 100%;
   height: 500px;
@@ -9711,8 +9714,8 @@ p {
 
 .hero-image h1 {
   position: absolute;
-  top: 20%;
-  left: 14%;
+  top: 20px;
+  left: 10px;
 }
 
 /* Landing Page ends */
