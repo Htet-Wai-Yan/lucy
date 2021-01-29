@@ -9714,8 +9714,8 @@ p {
 
 .hero-image h1 {
   position: absolute;
-  top: 20px;
-  left: 10px;
+  top: 5%;
+  left: 1%;
 }
 
 /* Landing Page ends */
@@ -9783,6 +9783,19 @@ p {
     font-size: 60px;
     color: white;
     padding: 20px;
+  }
+
+  .hero-image h1 {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero-image h1 {
+    position: absolute;
+    top: 5%;
+    left: 1%;
   }
 }
 
